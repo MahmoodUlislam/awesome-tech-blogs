@@ -14,7 +14,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'This is a list of Awesome Tech Blogs. Add yourself.' },
       // Open Graph
-      { hid: 'og:title',  property: 'og:title', content: 'Awesome Tech Blogs' },
+      { hid: 'og:title', property: 'og:title', content: 'Awesome Tech Blogs' },
       { hid: 'og:description', property: 'og:description', content: 'This is a list of Awesome Tech Blogs. Add yourself.' },
       { property: 'og:type', content: 'website' },
       { name: 'msapplication-TileColor', content: '#2b5797' },
@@ -81,5 +81,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  },
+
+  }
 }
